@@ -42,6 +42,40 @@ The project is organized into two main directories:
     - Relief mapping
     - Self-shadowing techniques
 
+### SourceCode
+
+The `SourceCode` directory contains raw HLSL shader code snippets organized by technique:
+
+- **VolumetricRendering**: Volumetric and pseudo-volume rendering techniques
+  - Translucent pseudo-volume implementations
+  - Fog and atmospheric effects
+  - Layered volume techniques
+  
+- **RayMarching**: Ray marching algorithms for various shapes and scenarios
+  - Box and sphere ray marching functions
+  - Scene SDF (Signed Distance Field) implementations
+  - Optimization techniques for ray traversal
+  
+- **NoiseTexturing**: Procedural noise generation for texturing
+  - 3D Perlin noise implementation
+  
+- **Shadows**: Shadow implementation techniques
+  - Optimized shadow algorithms
+  - Layered shadow approaches
+  - Light transmission effects
+  
+- **Utilities**: Helper functions and utilities
+  - Normal estimation
+  - Global shader functions
+  - Plane alignment tools
+  - Complexity visualization
+  
+- **ParralaxMapping**: Parallax techniques for depth effects
+  - Steep parallax mapping
+  - Relief mapping
+  - Parallax occlusion mapping
+  - Self-shadowing implementations
+
 ## Key Techniques
 
 This project explores and implements several advanced rendering techniques:

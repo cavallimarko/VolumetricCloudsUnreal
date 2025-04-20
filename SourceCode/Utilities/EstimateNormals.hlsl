@@ -1,0 +1,1 @@
+return estimateNormals(CameraPosition+(RayDirection)*Depth);
